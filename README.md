@@ -64,13 +64,8 @@ To install individual skills in Claude Desktop without the full plugin:
 Skills are available immediately in your Claude Desktop sessions once uploaded. You can install one or several depending on your needs.
 
 ### In Claude Code (individual skills)
-Clone this repository into your Claude Code environment:
 
-```
-git clone https://github.com/kensho-technologies/spglobal-agent-skills
-```
-
-Skills will be available in your Claude Code sessions from the cloned directory.
+Follow the instructions on the [Claude Code documentation](https://code.claude.com/docs/en/discover-plugins#add-from-github).
 
 ### Other Platforms
 The skills in this repository are markdown files. Any AI platform that supports custom instructions, system prompts, or knowledge file uploads can use them – the mechanism varies by platform but the principle is the same: load the skill content so the model has it as persistent context.
