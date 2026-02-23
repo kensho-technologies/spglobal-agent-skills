@@ -1,6 +1,6 @@
 {
   "name": "sp-global",
-  "description": "S&P Global - Financial data and analytics skills including company tearsheets, earnings previews, and transaction summaries",
+  "description": "S&P Global - Financial data and analytics skills including company tearsheets, earnings previews, transaction summaries, and Capital IQ Excel formulas",
   "version": "1.0.0",
   "author": {
     "name": "Kensho Technologies",
