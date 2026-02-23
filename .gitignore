@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+
+# Excel generated files
+*.xlsx
+*.xlsm
+*.xls
+~$*.xlsx
+~$*.xlsm
+
+# Exception: Documentation files for sp-cap-iq-excel-skill
+!sp-cap-iq-excel-skill/SPG_OfficeReferenceGuide_v2_RANGEV.xlsx
+!sp-cap-iq-excel-skill/SPGRANGEV*.pdf
+
+# Exception: Documentation files for sp-capital-iq-excel-pro
+!sp-capital-iq-excel-pro/SPG_OfficeReferenceGuide_v2_RANGEV.xlsx
+!sp-capital-iq-excel-pro/SPGRANGEV*.pdf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+
