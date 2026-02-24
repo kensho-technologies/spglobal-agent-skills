@@ -10,13 +10,6 @@ The skills in this plugin are provided as-is. Generated outputs are not guarante
 
 ## Skills Contained
 
-### Capital IQ Pro Excel Formula Assistant
-**Requires**: [Capital IQ Pro](https://www.spglobal.com/market-intelligence/en/solutions/products/sp-capital-iq-pro) subscription
-
-Helps you write, debug, and optimize `SPG()` formulas for the [Capital IQ Pro Excel](https://www.spglobal.com/market-intelligence/en/solutions/products/resources/sp-capital-iq-pro-office) plugin. Describe the data you need in plain language and get back ready-to-use formulas, including nested functions, array logic, and common financial modeling patterns.
-
-**Example prompt**: "Write an SPGI formula to pull the last five years of annual revenue for a list of tickers in column A."
-
 ### Tearsheets
 **Requires**: [S&P Global LLM-ready API](https://www.marketplace.spglobal.com/en/solutions/kensho-llm-ready-api-%28a156fe9f-5564-4f60-a624-95d8645dc98f%29) subscription
 
@@ -28,10 +21,10 @@ Generates a formatted, one-to-two page company tearsheet as a Word document, pop
 
 **Example prompt**: "Generate a business development tearsheet for Palantir."
 
-### Industry Transaction Summaries
+### Funding digests
 **Requires**: [S&P Global LLM-ready API](https://www.marketplace.spglobal.com/en/solutions/kensho-llm-ready-api-%28a156fe9f-5564-4f60-a624-95d8645dc98f%29) subscription
 
-Summarizes recent M&A and deal activity within a sector or for a specific company, drawing on S&P Capital IQ transaction data. Useful for market mapping, pitch preparation, and competitive intelligence.
+Summarizes funding activity within a sector or for a specific company, drawing on S&P Capital IQ transaction data. Useful for market mapping, pitch preparation, and competitive intelligence.
 
 **Example prompt**: "Summarize recent transactions in the data infrastructure space”
 
