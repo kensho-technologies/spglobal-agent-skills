@@ -22,7 +22,7 @@
       "repository": "https://github.com/kensho-technologies/spglobal-agent-skills",
       "license": "Apache-2.0",
       "keywords": ["finance", "capital-iq", "sp-global", "tearsheet", "earnings", "excel", "mcp"],
-      "category": "finance",
+      "category": "finance","finance-data","capital-recognition","capital-distributions"
       "tags": ["financial-data", "market-intelligence", "equity-research", "investment-banking"]
     }
   ]
