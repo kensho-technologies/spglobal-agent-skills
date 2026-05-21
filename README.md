@@ -2,7 +2,7 @@
 
 This plugin brings S&P Global's financial data and analytics directly into your AI workflow via a set of pre-built skills. It is designed for financial professionals who want AI-assisted research, analysis, and document generation grounded in authoritative S&P Global data.
 
-The skills are built on open standards (MCP) and are designed to work across AI platforms and agent frameworks. While the plugin follows the Claude Cowork standard, all skills and the underlying data layer are platform-agnostic. If you want to use these skills in another environment, please do.
+The skills are built on open standards (MCP) and are designed to work across AI platforms and agent frameworks. This repo includes plugin configs for both Claude Cowork and Codex.
 
 We recognize that every organization has unique needs. These skills are starting points to get you started on your finished products. We encourage you to adapt the prompts, outputs, and workflows to fit your firm's specific processes, templates, and data needs.
 
@@ -40,17 +40,6 @@ The plugin and skills require access to S&P Global data to work with, either [Ca
 
 The LLM-ready API is easy to integrate in Claude or other applications via its MCP server. Follow [these steps](https://docs.kensho.com/llmreadyapi/mcp/third-party/claude) to set it up. 
 
-### In Codex
-This repository includes Codex plugin metadata so the full S&P Global plugin can be installed as a local Codex plugin. The repo-local marketplace lives at `.agents/plugins/marketplace.json`, and its `spglobal-plugin` entry points to `./plugins/spglobal-plugin`.
-
-The plugin manifest is located at `plugins/spglobal-plugin/.codex-plugin/plugin.json`. It declares the bundled skills in `./skills/` and the S&P Global MCP server configuration in `./.mcp.json`.
-
-To use it in Codex:
-
-1. Open this repository in Codex.
-1. Install the local `spglobal-plugin` entry from the repo marketplace.
-1. Authenticate with your S&P Global credentials when the MCP server prompts you.
-1. Ask Codex for the workflow you need, such as "Generate a business development tearsheet for Palantir," "Give me an earnings preview for Salesforce," or "Create a Capital IQ Excel model for NVIDIA."
 
 ### In Cowork
 You'll need a paid Claude plan (Pro, Max, Team, or Enterprise) and the Claude Desktop app for macOS or Windows.
@@ -79,10 +68,21 @@ Skills are available immediately in your Claude Desktop sessions once uploaded. 
 
 Follow the instructions on the [Claude Code documentation](https://code.claude.com/docs/en/discover-plugins#add-from-github).
 
+### In Codex
+This repository includes Codex plugin metadata so the full S&P Global plugin can be installed as a local Codex plugin. The repo-local marketplace lives at `.agents/plugins/marketplace.json`, and its `spglobal-plugin` entry points to `./plugins/spglobal-plugin`.
+
+The plugin manifest is located at `plugins/spglobal-plugin/.codex-plugin/plugin.json`. It declares the bundled skills in `./skills/` and the S&P Global MCP server configuration in `./.mcp.json`.
+
+To use it in Codex:
+
+1. Open this repository in Codex.
+1. Install the local `spglobal-plugin` entry from the repo marketplace.
+1. Authenticate with your S&P Global credentials when the MCP server prompts you.
+1. Ask Codex for the workflow you need, such as "Generate a business development tearsheet for Palantir," "Give me an earnings preview for Salesforce," or "Create a Capital IQ Excel model for NVIDIA."
+
+
 ### Other Platforms
 The skills in this repository are markdown files. Any AI platform that supports custom instructions, system prompts, or knowledge file uploads can use them – the mechanism varies by platform but the principle is the same: load the skill content so the model has it as persistent context.
-
-**ChatGPT**: Paste skill content into Custom Instructions (Settings → Customize ChatGPT), upload as a knowledge file within a Project, or add to a Custom GPT's configuration. Custom instructions apply globally across sessions; Project-level files scope context to a specific workflow.
 
 **Microsoft Copilot**: Paste skill content into a custom prompt or system instruction depending on your Copilot configuration (M365 Copilot, Copilot Studio, etc.). Enterprise deployments via Copilot Studio allow uploading knowledge sources directly.
 
