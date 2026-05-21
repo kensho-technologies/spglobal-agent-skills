@@ -1,0 +1,20 @@
+{
+  "name": "spglobal-agent-skills",
+  "interface": {
+    "displayName": "S&P Global Agent Skills"
+  },
+  "plugins": [
+    {
+      "name": "spglobal-plugin",
+      "source": {
+        "source": "local",
+        "path": "./plugins/spglobal-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Finance"
+    }
+  ]
+}

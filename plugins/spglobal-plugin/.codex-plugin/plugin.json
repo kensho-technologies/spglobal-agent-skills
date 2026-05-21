@@ -1,0 +1,48 @@
+{
+  "name": "spglobal-plugin",
+  "version": "1.0.0",
+  "description": "S&P Global financial data and analytics skills for Codex, including company tear sheets, earnings previews, funding digests, and Capital IQ Excel workflows.",
+  "author": {
+    "name": "Kensho Technologies",
+    "email": "spglobal-agent-skills-maintainers@kensho.com",
+    "url": "https://www.kensho.com/"
+  },
+  "homepage": "https://www.marketplace.spglobal.com/en/solutions/kensho-llm-ready-api-%28a156fe9f-5564-4f60-a624-95d8645dc98f%29",
+  "repository": "https://github.com/kensho-technologies/spglobal-agent-skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "finance",
+    "capital-iq",
+    "sp-global",
+    "market-intelligence",
+    "earnings",
+    "tearsheet",
+    "funding",
+    "excel",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "S&P Global",
+    "shortDescription": "Financial research and analytics skills powered by S&P Global data.",
+    "longDescription": "Use S&P Global data in Codex for company tear sheets, earnings previews, funding digests, and Capital IQ-backed Excel workflows. Requires access to the S&P Global LLM-ready API or Capital IQ data where noted by each skill.",
+    "developerName": "Kensho Technologies",
+    "category": "Finance",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://www.marketplace.spglobal.com/en/solutions/kensho-llm-ready-api-%28a156fe9f-5564-4f60-a624-95d8645dc98f%29",
+    "privacyPolicyURL": "https://www.spglobal.com/en/privacy/privacy-policy-english",
+    "termsOfServiceURL": "https://www.spglobal.com/en/terms-of-use",
+    "defaultPrompt": [
+      "Generate a business development tear sheet for Palantir.",
+      "Give me an earnings preview for Salesforce.",
+      "Create a Capital IQ Excel model for NVIDIA."
+    ],
+    "brandColor": "#003B5C",
+    "screenshots": []
+  }
+}

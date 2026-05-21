@@ -40,6 +40,18 @@ The plugin and skills require access to S&P Global data to work with, either [Ca
 
 The LLM-ready API is easy to integrate in Claude or other applications via its MCP server. Follow [these steps](https://docs.kensho.com/llmreadyapi/mcp/third-party/claude) to set it up. 
 
+### In Codex
+This repository includes Codex plugin metadata so the full S&P Global plugin can be installed as a local Codex plugin. The repo-local marketplace lives at `.agents/plugins/marketplace.json`, and its `spglobal-plugin` entry points to `./plugins/spglobal-plugin`.
+
+The plugin manifest is located at `plugins/spglobal-plugin/.codex-plugin/plugin.json`. It declares the bundled skills in `./skills/` and the S&P Global MCP server configuration in `./.mcp.json`.
+
+To use it in Codex:
+
+1. Open this repository in Codex.
+1. Install the local `spglobal-plugin` entry from the repo marketplace.
+1. Authenticate with your S&P Global credentials when the MCP server prompts you.
+1. Ask Codex for the workflow you need, such as "Generate a business development tearsheet for Palantir," "Give me an earnings preview for Salesforce," or "Create a Capital IQ Excel model for NVIDIA."
+
 ### In Cowork
 You'll need a paid Claude plan (Pro, Max, Team, or Enterprise) and the Claude Desktop app for macOS or Windows.
 
