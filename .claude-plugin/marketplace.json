@@ -21,7 +21,7 @@
       "homepage": "https://www.marketplace.spglobal.com/en/solutions/kensho-llm-ready-api-%28a156fe9f-5564-4f60-a624-95d8645dc98f%29",
       "repository": "https://github.com/kensho-technologies/spglobal-agent-skills",
       "license": "Apache-2.0",
-      "keywords": ["finance", "capital-iq", "sp-global", "tearsheet", "earnings", "excel", "mcp"],
+      "keywords": ["finance", "capital-iq", "sp-global", "tearsheet", "earnings", "mcp"],
       "category": "finance",
       "tags": ["financial-data", "market-intelligence", "equity-research", "investment-banking"]
     }
