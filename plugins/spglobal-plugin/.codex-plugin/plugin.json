@@ -1,7 +1,7 @@
 {
   "name": "spglobal-plugin",
   "version": "1.0.0",
-  "description": "S&P Global financial data and analytics skills for Codex, including company tear sheets, earnings previews, funding digests, and Capital IQ Excel workflows.",
+  "description": "S&P Global financial data and analytics skills for Codex, including company tear sheets, earnings previews, and funding digests.",
   "author": {
     "name": "Kensho Technologies",
     "email": "spglobal-agent-skills-maintainers@kensho.com",
@@ -18,7 +18,6 @@
     "earnings",
     "tearsheet",
     "funding",
-    "excel",
     "mcp"
   ],
   "skills": "./skills/",
@@ -26,7 +25,7 @@
   "interface": {
     "displayName": "S&P Global",
     "shortDescription": "Financial research and analytics skills powered by S&P Global data.",
-    "longDescription": "Use S&P Global data in Codex for company tear sheets, earnings previews, funding digests, and Capital IQ-backed Excel workflows. Requires access to the S&P Global LLM-ready API or Capital IQ data where noted by each skill.",
+    "longDescription": "Use S&P Global data in Codex for company tear sheets, earnings previews, and funding digests. Requires access to the S&P Global LLM-ready API or Capital IQ data where noted by each skill.",
     "developerName": "Kensho Technologies",
     "category": "Finance",
     "capabilities": [
@@ -39,8 +38,7 @@
     "termsOfServiceURL": "https://www.spglobal.com/en/terms-of-use",
     "defaultPrompt": [
       "Generate a business development tear sheet for Palantir.",
-      "Give me an earnings preview for Salesforce.",
-      "Create a Capital IQ Excel model for NVIDIA."
+      "Give me an earnings preview for Salesforce."
     ],
     "brandColor": "#003B5C",
     "screenshots": []

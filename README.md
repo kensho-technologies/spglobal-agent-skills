@@ -78,7 +78,7 @@ To use it in Codex:
 1. Open this repository in Codex.
 1. Install the local `spglobal-plugin` entry from the repo marketplace.
 1. Authenticate with your S&P Global credentials when the MCP server prompts you.
-1. Ask Codex for the workflow you need, such as "Generate a business development tearsheet for Palantir," "Give me an earnings preview for Salesforce," or "Create a Capital IQ Excel model for NVIDIA."
+1. Ask Codex for the workflow you need, such as "Generate a business development tearsheet for Palantir," or "Give me an earnings preview for Salesforce."
 
 
 ### Other Platforms
